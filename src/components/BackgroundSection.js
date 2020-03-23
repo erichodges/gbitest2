@@ -1,13 +1,13 @@
-import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import styled from 'styled-components'
-import Img from 'gatsby-image'
-
 import BackgroundImage from 'gatsby-background-image'
+import Img from 'gatsby-image'
+import React from 'react'
+import styled from 'styled-components'
 // Use the following to support legacy browsers like IE11:
 // import BackgroundImage from 'gatsby-background-image-es5'
 import { generateMedia } from 'styled-media-query'
 import { StyledFullScreenWrapper } from './SharedStyledComponents'
+
 
 const media = generateMedia()
 
